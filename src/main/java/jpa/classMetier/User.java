@@ -43,7 +43,7 @@ public class User {
 		this.name = name;
 	}
 
-	@OneToMany(mappedBy = "User", cascade = CascadeType.PERSIST)
+	@OneToMany(mappedBy = "user", cascade = CascadeType.PERSIST)
 	public List<Ticket> getTickets() {
 		return tickets;
 	}

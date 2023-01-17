@@ -22,7 +22,7 @@ public class JpaTest {
 	 */
 	public static void main(String[] args) {
 		EntityManagerFactory factory =   
- 			 Persistence.createEntityManagerFactory("example");
+ 		Persistence.createEntityManagerFactory("dev");
 		EntityManager manager = factory.createEntityManager();
 		JpaTest test = new JpaTest(manager);
 
@@ -30,12 +30,14 @@ public class JpaTest {
 		tx.begin();
 		try {
 			test.createUsers();
+			test.createTickets();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		tx.commit();
 
 		test.listUsers();
+		test.listTickets();
 			
    	 manager.close();
 		System.out.println(".. done");
@@ -60,6 +62,26 @@ public class JpaTest {
 		System.out.println("num of Users:" + resultList.size());
 		for (User next : resultList) {
 			System.out.println("next user: " + next);
+		}
+	}
+
+	private void createTickets() {
+		int numOfTickets = manager.createQuery("Select a From Tickets a", Ticket.class).getResultList().size();
+		if (numOfTickets == 0) {
+			User user = new User("JC");
+			manager.persist(user);
+
+			manager.persist(new Ticket("Salut",user));
+			manager.persist(new Ticket("Captain Nemo",user));
+
+		}
+	}
+
+	private void listTickets() {
+		List<Ticket> resultList = manager.createQuery("Select a From Employee a", Ticket.class).getResultList();
+		System.out.println("num of Tickets:" + resultList.size());
+		for (Ticket next : resultList) {
+			System.out.println("next Ticket: " + next);
 		}
 	}
 }

@@ -1,19 +1,13 @@
 package jpa.classMetier;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.persistence.CascadeType;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
 
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+
+
+
 
 @Entity
 public class Ticket {
@@ -21,12 +15,13 @@ public class Ticket {
 
 	private String texte;
 
-
+    private User user ;
 	public Ticket() {
 	}
 
-	public Ticket(String texte) {
+	public Ticket(String texte, User user) {
 		this.texte = texte;
+        this.user = user ;
 	}
 
 	
@@ -41,6 +36,14 @@ public class Ticket {
 		this.id = id;
 	}
 
+    public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+    
 	public String getTexte() {
 		return texte;
 	}
@@ -53,6 +56,6 @@ public class Ticket {
 
 	@Override
 	public String toString() {
-        return "Employee [id=" + id + ", texte=" + texte + ", department=]";	}
+        return "Employee [id=" + id + ", texte=" + texte + ", User="+ user.getName() +"]";	}
 
 }
