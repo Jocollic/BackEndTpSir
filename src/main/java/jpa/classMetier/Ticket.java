@@ -5,6 +5,7 @@ package jpa.classMetier;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 
 
@@ -36,6 +37,7 @@ public class Ticket {
 		this.id = id;
 	}
 
+    @ManyToOne
     public User getUser() {
 		return user;
 	}
@@ -56,6 +58,6 @@ public class Ticket {
 
 	@Override
 	public String toString() {
-        return "Employee [id=" + id + ", texte=" + texte + ", User="+ user.getName() +"]";	}
+        return "Employee [id=" + id + ", texte=" + texte + ", User=]";	}
 
 }

@@ -46,7 +46,7 @@ public class JpaTest {
 
 
 	private void createUsers() {
-		int numOfUsers = manager.createQuery("Select a From Users a", User.class).getResultList().size();
+		int numOfUsers = manager.createQuery("Select a From User a", User.class).getResultList().size();
 		if (numOfUsers == 0) {
 			Ticket ticket = new Ticket();
 			manager.persist(ticket);
@@ -58,7 +58,7 @@ public class JpaTest {
 	}
 
 	private void listUsers() {
-		List<User> resultList = manager.createQuery("Select a From Employee a", User.class).getResultList();
+		List<User> resultList = manager.createQuery("Select a From User a", User.class).getResultList();
 		System.out.println("num of Users:" + resultList.size());
 		for (User next : resultList) {
 			System.out.println("next user: " + next);
@@ -66,7 +66,7 @@ public class JpaTest {
 	}
 
 	private void createTickets() {
-		int numOfTickets = manager.createQuery("Select a From Tickets a", Ticket.class).getResultList().size();
+		int numOfTickets = manager.createQuery("Select a From Ticket a", Ticket.class).getResultList().size();
 		if (numOfTickets == 0) {
 			User user = new User("JC");
 			manager.persist(user);
@@ -78,7 +78,7 @@ public class JpaTest {
 	}
 
 	private void listTickets() {
-		List<Ticket> resultList = manager.createQuery("Select a From Employee a", Ticket.class).getResultList();
+		List<Ticket> resultList = manager.createQuery("Select a From Ticket a", Ticket.class).getResultList();
 		System.out.println("num of Tickets:" + resultList.size());
 		for (Ticket next : resultList) {
 			System.out.println("next Ticket: " + next);
