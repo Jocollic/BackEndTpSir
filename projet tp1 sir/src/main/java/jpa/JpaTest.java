@@ -7,6 +7,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
+import jpa.Dao.TicketDao;
 import jpa.classMetier.Ticket;
 import jpa.classMetier.User;
 
@@ -27,6 +28,7 @@ public class JpaTest {
 
 		EntityTransaction tx = manager.getTransaction();
 		tx.begin();
+
 		try {
 			test.createUsers();
 			test.createTickets();

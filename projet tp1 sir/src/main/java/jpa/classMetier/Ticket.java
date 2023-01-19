@@ -2,6 +2,7 @@ package jpa.classMetier;
 
 
 
+import java.io.Serializable;
 import java.io.ObjectInputStream.GetField;
 
 import javax.persistence.Entity;
@@ -13,7 +14,7 @@ import javax.persistence.ManyToOne;
 
 
 @Entity
-public class Ticket {
+public class Ticket implements Serializable {
 	private Long id;
 
 	private String texte;
