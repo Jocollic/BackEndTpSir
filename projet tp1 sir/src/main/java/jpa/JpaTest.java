@@ -26,8 +26,9 @@ public class JpaTest {
 		JpaTest test = new JpaTest(manager);
 
 		EntityTransaction tx = manager.getTransaction();
-		tx.begin();
 
+		tx.begin();
+		
 		try {
 			test.createUsers();
 			test.createTickets();
@@ -48,8 +49,8 @@ public class JpaTest {
 	private void createUsers() {
 		int numOfUsers = manager.createQuery("Select a From User a", User.class).getResultList().size();
 		if (numOfUsers == 0) {
-			Ticket ticket = new Ticket();
-			manager.persist(ticket);
+			User user = new User();
+			manager.persist(user);
 
 			manager.persist(new User("Jakab Gipsz"));
 			manager.persist(new User("Captain Nemo"));
