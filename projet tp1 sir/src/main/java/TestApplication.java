@@ -24,7 +24,7 @@ import javax.ws.rs.core.Application;
 import io.swagger.v3.jaxrs2.integration.resources.OpenApiResource;
 import rest.PetResource;
 import rest.TicketResource;
-import rest.UserResource;
+import rest.UserRessource;
 
 public class TestApplication extends Application {
 
@@ -36,7 +36,7 @@ public class TestApplication extends Application {
 
         clazzes.add(PetResource.class);
         clazzes.add(OpenApiResource.class);
-        clazzes.add(UserResource.class);
+        clazzes.add(UserRessource.class);
         clazzes.add(TicketResource.class);
 
         

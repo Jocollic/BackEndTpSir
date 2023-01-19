@@ -9,17 +9,19 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
 import io.swagger.v3.oas.annotations.Parameter;
+import jpa.Dao.UserDao;
 import jpa.classMetier.User;
 
-@Path("/pet")
-@Produces({"application/json", "application/xml"})
-public class UserResource {
+@Path("/user")
+@Produces({"application/json"})
+public class UserRessource {
+  UserDao dao = new UserDao();
 
   @GET
-  @Path("/{userId}")
+  @Path("/{id}")
   public User getUserById(@PathParam("id") Long userId)  {
       // return user
-      return new User();
+      return dao.findOne(userId);
   }
 
   @POST
