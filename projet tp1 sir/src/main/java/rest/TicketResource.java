@@ -9,17 +9,20 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
 import io.swagger.v3.oas.annotations.Parameter;
+import jpa.Dao.TicketDao;
 import jpa.classMetier.Ticket;
 
 @Path("/ticket")
-@Produces({"application/json", "application/xml"})
+@Produces({"application/json"})
 public class TicketResource {
 
+  TicketDao dao = new TicketDao();
+
   @GET
-  @Path("/{ticketId}")
-  public Ticket getUserById(@PathParam("id") Long ticketId)  {
+  @Path("/{id}")
+  public Ticket getTicketById(@PathParam("id") Long ticketId)  {
       // return ticket
-      return new Ticket();
+      return dao.findOne(ticketId);  
   }
 
   @POST
