@@ -1,4 +1,4 @@
-package fr.istic.taa.jaxrs.rest;
+package rest;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -8,25 +8,25 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
-import fr.istic.taa.jaxrs.domain.Pet;
 import io.swagger.v3.oas.annotations.Parameter;
+import jpa.classMetier.User;
 
 @Path("/pet")
 @Produces({"application/json", "application/xml"})
-public class PetResource {
+public class UserResource {
 
   @GET
-  @Path("/{petId}")
-  public Pet getPetById(@PathParam("petId") Long petId)  {
-      // return pet
-      return new Pet();
+  @Path("/{userId}")
+  public User getUserById(@PathParam("id") Long userId)  {
+      // return user
+      return new User();
   }
 
   @POST
   @Consumes("application/json")
-  public Response addPet(
-      @Parameter(description = "Pet object that needs to be added to the store", required = true) Pet pet) {
-    // add pet
+  public Response addUser(
+      @Parameter(description = "User object that needs to be added to the store", required = true) User user) {
+    // add user
     return Response.ok().entity("SUCCESS").build();
   }
 }

@@ -14,15 +14,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package fr.istic.taa.jaxrs;
+
 
 import java.util.HashSet;
 import java.util.Set;
 
 import javax.ws.rs.core.Application;
 
-import fr.istic.taa.jaxrs.rest.PetResource;
 import io.swagger.v3.jaxrs2.integration.resources.OpenApiResource;
+import rest.PetResource;
+import rest.TicketResource;
+import rest.UserResource;
 
 public class TestApplication extends Application {
 
@@ -34,6 +36,9 @@ public class TestApplication extends Application {
 
         clazzes.add(PetResource.class);
         clazzes.add(OpenApiResource.class);
+        clazzes.add(UserResource.class);
+        clazzes.add(TicketResource.class);
+
         
 
         return clazzes;

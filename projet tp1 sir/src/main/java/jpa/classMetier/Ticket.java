@@ -3,7 +3,6 @@ package jpa.classMetier;
 
 
 import java.io.Serializable;
-import java.io.ObjectInputStream.GetField;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
