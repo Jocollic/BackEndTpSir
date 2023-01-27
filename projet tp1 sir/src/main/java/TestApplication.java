@@ -22,7 +22,7 @@ import java.util.Set;
 import javax.ws.rs.core.Application;
 
 import io.swagger.v3.jaxrs2.integration.resources.OpenApiResource;
-import rest.PetResource;
+import rest.SwaggerResource;
 import rest.TicketResource;
 import rest.UserRessource;
 
@@ -34,10 +34,11 @@ public class TestApplication extends Application {
 
         final Set<Class<?>> clazzes = new HashSet<Class<?>>();
 
-        clazzes.add(PetResource.class);
         clazzes.add(OpenApiResource.class);
         clazzes.add(UserRessource.class);
         clazzes.add(TicketResource.class);
+        clazzes.add(SwaggerResource.class);
+
 
         
 
