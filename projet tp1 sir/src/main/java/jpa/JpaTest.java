@@ -7,8 +7,8 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
-import jpa.classMetier.Ticket;
-import jpa.classMetier.User;
+import jpa.domain.Ticket;
+import jpa.domain.User;
 
 public class JpaTest {
 	private EntityManager manager;
@@ -27,6 +27,7 @@ public class JpaTest {
 
 		EntityTransaction tx = manager.getTransaction();
 
+		
 		tx.begin();
 		
 		try {

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="22.02.0">
+<page number="1" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="0" size="22" family="Helvetica" color="#6d7278"/>
+	<fontspec id="1" size="15" family="Helvetica" color="#999999"/>
+	<fontspec id="2" size="15" family="Helvetica" color="#000000"/>
+	<fontspec id="3" size="22" family="Helvetica" color="#000000"/>
+	<fontspec id="4" size="15" family="Helvetica" color="#000000"/>
+<image top="24" left="24" width="203" height="168" src="./output/6429/xml/6429-1_1.png"/>
+<image top="602" left="228" width="563" height="207" src="./output/6429/xml/6429-1_2.jpg"/>
+<text top="206" left="55" width="139" height="21" font="0">PRÉSERVER</text>
+<text top="234" left="38" width="173" height="21" font="0">SAUVEGARDER</text>
+<text top="263" left="60" width="129" height="21" font="0">VALORISER</text>
+<text top="59" left="228" width="544" height="15" font="1">MISSION NATIONALE DE SAUVEGARDE DU PATRIMOINE SCIENTIFIQUE</text>
+<text top="82" left="228" width="250" height="15" font="1">ET TECHNIQUE CONTEMPORAIN</text>
+<text top="127" left="228" width="4" height="14" font="2"> </text>
+<text top="145" left="228" width="606" height="21" font="3"><b>MULTIMÈTRE RADIO-CONTRÔLEUR CHAUVIN-ARNOUX</b></text>
+<text top="167" left="228" width="77" height="14" font="2">FICHE N° 1</text>
+<text top="184" left="228" width="4" height="14" font="2"> </text>
+<text top="200" left="228" width="362" height="14" font="2">Modèle : Multimètre Radio-Contrôleur Chauvin-Arnoux</text>
+<text top="216" left="228" width="212" height="14" font="2">Fabricant : CHAUVIN-ARNOUX</text>
+<text top="232" left="228" width="142" height="14" font="2">Domaines : Physique</text>
+<text top="248" left="228" width="269" height="14" font="2">Sous-domaines : Electricité Electronique</text>
+<text top="265" left="228" width="394" height="14" font="2">Organisme : Université de Rennes 1 - Campus de Beaulieu</text>
+<text top="281" left="228" width="230" height="14" font="2">Période de fabrication : 1950-1975</text>
+<text top="297" left="228" width="121" height="14" font="2">Région : Bretagne</text>
+<text top="313" left="228" width="93" height="14" font="2">Ville : Rennes</text>
+<text top="329" left="228" width="108" height="14" font="2">Hauteur (cm) : 3</text>
+<text top="346" left="228" width="107" height="14" font="2">Largeur (cm) : 8</text>
+<text top="362" left="228" width="138" height="14" font="2">Profondeur (cm) : 12</text>
+<text top="378" left="228" width="113" height="14" font="2">Diamètre (cm) : -</text>
+<text top="411" left="228" width="83" height="14" font="4"><b>Description</b></text>
+<text top="427" left="228" width="606" height="14" font="2">Le multimètre Radio-Contrôleur de Chauvin-Arnoux est de forme rectangulaire en bakélite</text>
+<text top="443" left="228" width="606" height="14" font="2">noire. Sur la face supérieure se situe un cadran de lecture analogique à aiguille avec deux</text>
+<text top="459" left="228" width="606" height="14" font="2">échelles de mesures linéaires. Sur la tranche inférieure se trouve huit bornes électriques</text>
+<text top="475" left="228" width="606" height="14" font="2">qui permettent de choisir le calibre de mesure.Il sert à mesurer des tensions et des</text>
+<text top="491" left="228" width="212" height="14" font="2">courants continus ou alternatifs.</text>
+<text top="524" left="228" width="73" height="14" font="4"><b>Utilisation</b></text>
+<text top="540" left="228" width="606" height="14" font="2">Cet appareil était utilisé en travaux pratiques par les étudiants de physique et</text>
+<text top="556" left="228" width="442" height="14" font="2">d'électronique mais aussi par les chercheurs dans les laboratoires.</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="1262" width="892">
+<image top="21" left="21" width="563" height="449" src="./output/6429/xml/6429-2_1.jpg"/>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="1262" width="892">
+<image top="21" left="21" width="563" height="2016" src="./output/6429/xml/6429-3_1.jpg"/>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="5" size="1" family="Helvetica" color="#000000"/>
+<image top="21" left="21" width="563" height="815" src="./output/6429/xml/6429-4_1.jpg"/>
+</page>
+</pdf2xml>

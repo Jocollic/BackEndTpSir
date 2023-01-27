@@ -1,6 +1,6 @@
 package jpa.Dao;
 
-import jpa.classMetier.User;
+import jpa.domain.User;
 
 
 public class UserDao extends AbstractJpaDao<Long, User> {

@@ -12,7 +12,7 @@ import io.swagger.v3.oas.annotations.Parameter;
 import jpa.domain.Pet;
 
 @Path("/pet")
-@Produces({"application/json", "application/xml"})
+@Produces({"application/json"})
 public class PetResource {
 
   @GET

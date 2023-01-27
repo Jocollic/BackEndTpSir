@@ -10,7 +10,7 @@ import javax.ws.rs.core.Response;
 
 import io.swagger.v3.oas.annotations.Parameter;
 import jpa.Dao.TicketDao;
-import jpa.classMetier.Ticket;
+import jpa.domain.Ticket;
 
 @Path("/ticket")
 @Produces({"application/json"})

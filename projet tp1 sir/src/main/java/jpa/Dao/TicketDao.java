@@ -1,6 +1,6 @@
 package jpa.Dao;
 
-import jpa.classMetier.Ticket;
+import jpa.domain.Ticket;
 
 
 public class TicketDao extends AbstractJpaDao<Long, Ticket> {

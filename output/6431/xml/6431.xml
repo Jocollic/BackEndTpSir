@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="22.02.0">
+<page number="1" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="0" size="22" family="Helvetica" color="#6d7278"/>
+	<fontspec id="1" size="15" family="Helvetica" color="#999999"/>
+	<fontspec id="2" size="15" family="Helvetica" color="#000000"/>
+	<fontspec id="3" size="22" family="Helvetica" color="#000000"/>
+	<fontspec id="4" size="15" family="Helvetica" color="#000000"/>
+<image top="24" left="24" width="203" height="168" src="./output/6431/xml/6431-1_1.png"/>
+<image top="651" left="228" width="563" height="360" src="./output/6431/xml/6431-1_2.jpg"/>
+<text top="206" left="55" width="139" height="21" font="0">PRÉSERVER</text>
+<text top="234" left="38" width="173" height="21" font="0">SAUVEGARDER</text>
+<text top="263" left="60" width="129" height="21" font="0">VALORISER</text>
+<text top="59" left="228" width="544" height="15" font="1">MISSION NATIONALE DE SAUVEGARDE DU PATRIMOINE SCIENTIFIQUE</text>
+<text top="82" left="228" width="250" height="15" font="1">ET TECHNIQUE CONTEMPORAIN</text>
+<text top="127" left="228" width="4" height="14" font="2"> </text>
+<text top="145" left="228" width="350" height="21" font="3"><b>VOLTMÈTRE PORTABLE PEKLY</b></text>
+<text top="167" left="228" width="77" height="14" font="2">FICHE N° 4</text>
+<text top="184" left="228" width="4" height="14" font="2"> </text>
+<text top="200" left="228" width="237" height="14" font="2">Modèle : Voltmètre portable PEKLY</text>
+<text top="216" left="228" width="123" height="14" font="2">Fabricant : PEKLY</text>
+<text top="232" left="228" width="142" height="14" font="2">Domaines : Physique</text>
+<text top="248" left="228" width="269" height="14" font="2">Sous-domaines : Electricité Electronique</text>
+<text top="265" left="228" width="385" height="14" font="2">Organisme : Université de Rennes 1 Campus de Beaulieu</text>
+<text top="281" left="228" width="230" height="14" font="2">Période de fabrication : 1950-1975</text>
+<text top="297" left="228" width="121" height="14" font="2">Région : Bretagne</text>
+<text top="313" left="228" width="93" height="14" font="2">Ville : Rennes</text>
+<text top="329" left="228" width="129" height="14" font="2">Hauteur (cm) : 15.5</text>
+<text top="346" left="228" width="119" height="14" font="2">Largeur (cm) : 8.5</text>
+<text top="362" left="228" width="129" height="14" font="2">Profondeur (cm) : 8</text>
+<text top="378" left="228" width="113" height="14" font="2">Diamètre (cm) : -</text>
+<text top="411" left="228" width="83" height="14" font="4"><b>Description</b></text>
+<text top="427" left="228" width="606" height="14" font="2">Le voltmètre portable PEKLY de forme rectangulaire est en bakélite noire. Il est contenu</text>
+<text top="443" left="228" width="183" height="14" font="2">dans un étui en cuir marron</text>
+<text top="459" left="228" width="428" height="14" font="2">clair avec poignée de transport qui permet  la mesure sans sortir</text>
+<text top="475" left="228" width="606" height="14" font="2">l'appareil de l'étui. C'est un voltmètre alternatif analogique à aiguille qui sert à  mesurer des</text>
+<text top="491" left="228" width="607" height="14" font="2">tensions alternatives (calibres 3 V à 120 V ; échelles graduées de 0 à 3 ou de 0 à 60).  Il</text>
+<text top="508" left="228" width="606" height="14" font="2">possède une prise d'entrée coaxiale de type RCA et un cordon de mesure coaxial avec</text>
+<text top="524" left="228" width="606" height="14" font="2">une pointe de touche.Cet appareil est conçu pour effectuer des mesures de contrôle de</text>
+<text top="540" left="228" width="122" height="14" font="2">tension électrique.</text>
+<text top="573" left="228" width="73" height="14" font="4"><b>Utilisation</b></text>
+<text top="589" left="228" width="606" height="14" font="2">Cet instrument était utilisé en travaux pratiques d'électricité et d'électronique à la Faculté</text>
+<text top="605" left="228" width="429" height="14" font="2">des Sciences de Rennes pour mesurer des tensions électriques.</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="1262" width="892">
+<image top="21" left="21" width="563" height="494" src="./output/6431/xml/6431-2_1.jpg"/>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="1262" width="892">
+<image top="21" left="21" width="563" height="889" src="./output/6431/xml/6431-3_1.jpg"/>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="1262" width="892">
+<image top="21" left="21" width="563" height="322" src="./output/6431/xml/6431-4_1.jpg"/>
+<image top="366" left="21" width="563" height="445" src="./output/6431/xml/6431-4_2.jpg"/>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="5" size="1" family="Helvetica" color="#000000"/>
+<image top="21" left="21" width="563" height="680" src="./output/6431/xml/6431-5_1.jpg"/>
+<image top="724" left="21" width="563" height="152" src="./output/6431/xml/6431-5_2.jpg"/>
+</page>
+</pdf2xml>

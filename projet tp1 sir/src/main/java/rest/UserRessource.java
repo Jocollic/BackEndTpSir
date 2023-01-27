@@ -10,7 +10,7 @@ import javax.ws.rs.core.Response;
 
 import io.swagger.v3.oas.annotations.Parameter;
 import jpa.Dao.UserDao;
-import jpa.classMetier.User;
+import jpa.domain.User;
 
 @Path("/user")
 @Produces({"application/json"})
