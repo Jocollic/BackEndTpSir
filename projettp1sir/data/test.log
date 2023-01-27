@@ -1,0 +1,19 @@
+/*C21*/SET SCHEMA PUBLIC
+drop table if exists Ticket CASCADE 
+drop table if exists User CASCADE 
+drop sequence hibernate_sequence if exists
+create sequence hibernate_sequence start with 1 increment by 1
+create table Ticket (id bigint not null, texte varchar(255), user_id bigint, primary key (id))
+create table User (id bigint not null, name varchar(255), primary key (id))
+alter table Ticket add constraint FKm1xvucrvrnk55qhem8xmvju6h foreign key (user_id) references User
+INSERT INTO USER VALUES(1,NULL)
+INSERT INTO USER VALUES(2,'Jakab Gipsz')
+INSERT INTO USER VALUES(3,'Captain Nemo')
+INSERT INTO USER VALUES(4,'JC')
+INSERT INTO TICKET VALUES(5,'Salut',4)
+INSERT INTO TICKET VALUES(6,'Captain Nemo',4)
+ALTER SEQUENCE PUBLIC.HIBERNATE_SEQUENCE RESTART WITH 7
+COMMIT
+DISCONNECT
+/*C22*/SET SCHEMA PUBLIC
+DISCONNECT
