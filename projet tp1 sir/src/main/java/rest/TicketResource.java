@@ -28,7 +28,7 @@ public class TicketResource {
   @Consumes("application/json")
   public Response addTicket(
       @Parameter(description = "Ticket object that needs to be added to the store", required = true) Ticket ticket) {
-    // add pet
-    return Response.ok().entity("SUCCESS").build();
+        dao.save(ticket);
+        return Response.ok().entity("SUCCESS").build();
   }
 }

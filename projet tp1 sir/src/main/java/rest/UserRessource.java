@@ -28,7 +28,7 @@ public class UserRessource {
   @Consumes("application/json")
   public Response addUser(
       @Parameter(description = "User object that needs to be added to the store", required = true) User user) {
-    // add user
-    return Response.ok().entity("SUCCESS").build();
+        dao.save(user);
+        return Response.ok().entity("SUCCESS").build();
   }
 }
