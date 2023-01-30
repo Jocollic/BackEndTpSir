@@ -3,6 +3,7 @@ package rest;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
+import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
@@ -13,7 +14,7 @@ import jpa.Dao.UserDao;
 import jpa.domain.User;
 
 @Path("/user")
-@Produces({"application/json"})
+@Produces({"application/json"}) 
 public class UserRessource {
   UserDao dao = new UserDao();
 
@@ -31,4 +32,16 @@ public class UserRessource {
         dao.save(user);
         return Response.ok().entity("SUCCESS").build();
   }
+  @PUT
+  @Path("/peuple")
+  public void peupleData() {
+    User theo = new User("Théo");
+    User johan = new User("Johan Collic");
+    User marin  = new User("Boiteau");
+
+    dao.save(theo);       
+    dao.save(johan);       
+    dao.save(marin);       
+
+}
 }
