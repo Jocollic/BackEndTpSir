@@ -32,16 +32,16 @@ public class UserRessource {
         dao.save(user);
         return Response.ok().entity("SUCCESS").build();
   }
-  @PUT
-  @Path("/peuple")
-  public void peupleData() {
+  @GET
+  public String peupleData() {
     User theo = new User("Théo");
     User johan = new User("Johan Collic");
     User marin  = new User("Boiteau");
-
+    
     dao.save(theo);       
     dao.save(johan);       
-    dao.save(marin);       
+    dao.save(marin);   
+    return "Succes";    
 
 }
 }
