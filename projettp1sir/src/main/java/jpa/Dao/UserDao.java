@@ -6,7 +6,7 @@ import jpa.domain.User;
 public class UserDao extends AbstractJpaDao<Long, User> {
 
 
-public UserDao() {
+public UserDao() {      
     super(User.class);
 }
     
