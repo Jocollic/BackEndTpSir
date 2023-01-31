@@ -9,6 +9,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 
 
 
@@ -39,6 +41,7 @@ public class Ticket implements Serializable {
 	}
 
     @ManyToOne
+	@JsonIgnore //DTO surment a faire
     public User getUser() {
 		return user;
 	}

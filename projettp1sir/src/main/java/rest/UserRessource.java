@@ -3,11 +3,11 @@ package rest;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
-import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
+import java.util.List;
 
 import io.swagger.v3.oas.annotations.Parameter;
 import jpa.Dao.UserDao;
@@ -33,7 +33,7 @@ public class UserRessource {
         return Response.ok().entity("SUCCESS").build();
   }
   @GET
-  public String peupleData() {
+  public List<User> peupleData() {
     User theo = new User("Théo");
     User johan = new User("Johan Collic");
     User marin  = new User("Boiteau");
@@ -41,7 +41,9 @@ public class UserRessource {
     dao.save(theo);       
     dao.save(johan);       
     dao.save(marin);   
-    return "Succes";    
+   
+    return dao.findAll(); 
+
 
 }
 }

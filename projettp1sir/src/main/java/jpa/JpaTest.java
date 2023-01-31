@@ -87,8 +87,5 @@ public class JpaTest {
 		}
 	}
 
-	private void critera() {
-		
-	}
 }
 
