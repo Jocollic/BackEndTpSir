@@ -13,7 +13,7 @@ import io.swagger.v3.oas.annotations.Parameter;
 import jpa.Dao.UserDao;
 import jpa.domain.User;
 
-@Path("/user")
+@Path("/api/user")
 @Produces({"application/json"}) 
 public class UserRessource {
   UserDao dao = new UserDao();
@@ -32,18 +32,17 @@ public class UserRessource {
         dao.save(user);
         return Response.ok().entity("SUCCESS").build();
   }
+  
   @GET
   public List<User> peupleData() {
-    User theo = new User("Théo");
+    /*User theo = new User("Théo");
     User johan = new User("Johan Collic");
     User marin  = new User("Boiteau");
     
     dao.save(theo);       
     dao.save(johan);       
-    dao.save(marin);   
-   
+    dao.save(marin);   */
+
     return dao.findAll(); 
-
-
-}
+  }
 }

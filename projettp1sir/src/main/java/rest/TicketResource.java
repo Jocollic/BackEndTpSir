@@ -11,7 +11,7 @@ import io.swagger.v3.oas.annotations.Parameter;
 import jpa.Dao.TicketDao;
 import jpa.domain.Ticket;
 
-@Path("/ticket")
+@Path("/api/ticket")
 @Produces({"application/json"})
 public class TicketResource {
 
