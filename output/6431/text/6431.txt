@@ -1,36 +1,0 @@
-              MISSION NATIONALE DE SAUVEGARDE DU PATRIMOINE SCIENTIFIQUE
-              ET TECHNIQUE CONTEMPORAIN
-
-
-
-              VOLTMÈTRE PORTABLE PEKLY
-              FICHE N° 4
-
-              Modèle : Voltmètre portable PEKLY
- PRÉSERVER    Fabricant : PEKLY
-              Domaines : Physique
-SAUVEGARDER   Sous-domaines : Electricité Electronique
- VALORISER    Organisme : Université de Rennes 1 Campus de Beaulieu
-              Période de fabrication : 1950-1975
-              Région : Bretagne
-              Ville : Rennes
-              Hauteur (cm) : 15.5
-              Largeur (cm) : 8.5
-              Profondeur (cm) : 8
-              Diamètre (cm) : -
-
-              Description
-              Le voltmètre portable PEKLY de forme rectangulaire est en bakélite noire. Il est contenu
-              dans un étui en cuir marron
-              clair avec poignée de transport qui permet la mesure sans sortir
-              l'appareil de l'étui. C'est un voltmètre alternatif analogique à aiguille qui sert à mesurer des
-              tensions alternatives (calibres 3 V à 120 V ; échelles graduées de 0 à 3 ou de 0 à 60). Il
-              possède une prise d'entrée coaxiale de type RCA et un cordon de mesure coaxial avec
-              une pointe de touche.Cet appareil est conçu pour effectuer des mesures de contrôle de
-              tension électrique.
-
-              Utilisation
-              Cet instrument était utilisé en travaux pratiques d'électricité et d'électronique à la Faculté
-              des Sciences de Rennes pour mesurer des tensions électriques.
-Powered by TCPDF (www.tcpdf.org)
-

@@ -1,33 +1,0 @@
-              MISSION NATIONALE DE SAUVEGARDE DU PATRIMOINE SCIENTIFIQUE
-              ET TECHNIQUE CONTEMPORAIN
-
-
-
-              MULTIMÈTRE RADIO-CONTRÔLEUR CHAUVIN-ARNOUX
-              FICHE N° 1
-
-              Modèle : Multimètre Radio-Contrôleur Chauvin-Arnoux
- PRÉSERVER    Fabricant : CHAUVIN-ARNOUX
-              Domaines : Physique
-SAUVEGARDER   Sous-domaines : Electricité Electronique
- VALORISER    Organisme : Université de Rennes 1 - Campus de Beaulieu
-              Période de fabrication : 1950-1975
-              Région : Bretagne
-              Ville : Rennes
-              Hauteur (cm) : 3
-              Largeur (cm) : 8
-              Profondeur (cm) : 12
-              Diamètre (cm) : -
-
-              Description
-              Le multimètre Radio-Contrôleur de Chauvin-Arnoux est de forme rectangulaire en bakélite
-              noire. Sur la face supérieure se situe un cadran de lecture analogique à aiguille avec deux
-              échelles de mesures linéaires. Sur la tranche inférieure se trouve huit bornes électriques
-              qui permettent de choisir le calibre de mesure.Il sert à mesurer des tensions et des
-              courants continus ou alternatifs.
-
-              Utilisation
-              Cet appareil était utilisé en travaux pratiques par les étudiants de physique et
-              d'électronique mais aussi par les chercheurs dans les laboratoires.
-Powered by TCPDF (www.tcpdf.org)
-
